@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: dlChurn
+Version: 0.0.0
+Summary: A small Python package for a deep learning churn prediction app
+Home-page: https://github.com/Tiwari666/Customer-Churn-Classification-Deep-Learning-Project
+Author: Tiwari666
+Author-email: narendra76052@gmail.com
+Project-URL: Bug Tracker, https://github.com/Tiwari666/Customer-Churn-Classification-Deep-Learning-Project/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# DL_customer_churn

@@ -1,0 +1,35 @@
+# This file lists the dependencies required for the project.
+tensorflow==2.12.0      # Deep learning framework for training neural networks
+pandas                  # Data manipulation and analysis (tables, CSVs, etc.)
+dvc                     # Data Version Control — like Git for datasets and models
+mlflow==2.2.2           # Track experiments, model metrics, and deployments
+notebook                # Jupyter Notebook interface for experiments and notes
+numpy                   # Numerical computations and arrays
+matplotlib              # Plotting and visualization (basic charts/graphs)
+seaborn                 # Statistical data visualization (built on matplotlib)
+python-box==6.0.2       # Access config values like objects (dot notation)
+pyYAML                  # Read and write YAML config files (like config.yaml)
+tqdm                    # Progress bars for loops or data processing
+ensure==1.0.2           # Simplifies type/value checking during development
+joblib                  # Saving and loading models and Python objects
+types-PyYAML            # Typing support for pyYAML (helpful in VS Code or Pyright)
+scipy                   # Scientific computing — stats, optimization, etc.
+Flask                   # Web framework to deploy ML model as API
+Flask-Cors              # Allow cross-origin requests in Flask API (useful for frontend)
+gdown                   # Download files directly from Google Drive via code
+-e .                    # Install the current local project in editable mode
+# -e stands for "editable" mode
+
+#. refers to the current directory (your project folder)
+
+# Together, -e . means: “Install this project (the current folder) as a Python package in editable mode.”
+# Note: The `-e .` line allows you to install the current project in editable mode,
+# meaning changes to the code will be reflected without needing to reinstall.
+
+# Why Use -e .  ?
+
+# Allows you to import your own code like a library, e.g., from src.dlChurn import ...
+
+# No need to reinstall the package every time you make changes in your code
+
+# Especially helpful when you have a proper setup.py
